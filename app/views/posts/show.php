@@ -148,4 +148,4 @@
             </div>
 
     
-      <?php include '../app/views/templates/partials/_script.php';?>
+     
