@@ -1,10 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-  </head>
-  <body>
 
-	 
-	  <h1>backoffice</h1>
-  </body>
+<head>
+<?php include '../app/views/templates/partials/_head.php'?>
+</head>
+
+<body>
+  <!-- Fixed navbar -->
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+   <?php  include '../app/views/templates/partials/_nav.php'?>
+  </nav>
+
+  <?php  include '../app/views/templates/partials/_main.php'?>
+
+  <!-- /container -->
+<?php include '../app/views/templates/partials/_scripts.php'?>
+  
+</body>
+
 </html>
