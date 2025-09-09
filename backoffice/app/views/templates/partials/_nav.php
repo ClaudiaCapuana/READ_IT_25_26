@@ -12,6 +12,7 @@
       <div id="navbar" class="navbar-collapse collapse">
         <ul class="nav navbar-nav">
           <li class="active"><a href="#">DASHBOARD</a></li>
+          
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
               aria-expanded="false">GESTION <span class="caret"></span></a>
@@ -33,6 +34,7 @@
               <li><a href="#">Ajouter un utilisateur</a></li>
             </ul>
           </li>
+           <li><a href="users/logout">LOGOUT</a></li>
         </ul>
       </div>
       <!--/.nav-collapse -->
