@@ -7,3 +7,19 @@ RewriteEngine on
 # pattern : ?posts=show&id=$1
 RewriteRule ^posts/([1-9][0-9]*)/[a-z0-9][a-z0-9\-]*$ index.php?posts=show&id=$1 [L]
 
+# Routes user.login-form
+# URL: user/login-form
+# créer un lien dans le footer vers cette route 
+# faire la route avec un form
+
+RewriteRule ^users/login\-form$ index.php?users=login-form [L]
+
+# Routes user.login
+# URL: user/login
+# créer un lien dans le footer vers cette route 
+# faire la route avec un form
+
+RewriteRule ^users/login$ index.php?users=login [L]
+# ---------------------------
+RewriteCond %{REQUEST_URI} !\.(js|css|jpg|gif|zip|png|pdf)$ [NC]
+RewriteRule ^(.*)$ index.php [L]
