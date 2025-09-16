@@ -9,6 +9,6 @@ switch ($_GET['users']) :
         break;
     
     default:
-     
+     UsersController\indexAction($conn);
         break;
     endswitch;
