@@ -7,6 +7,11 @@ switch ($_GET['users']) :
            
     \App\Controllers\UsersController\logoutAction();
         break;
+
+        case 'new':
+           
+    \App\Controllers\UsersController\newAction();
+        break;
     
     default:
      UsersController\indexAction($conn);

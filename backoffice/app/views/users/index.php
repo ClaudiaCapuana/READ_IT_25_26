@@ -27,16 +27,7 @@
                 </td>
                 <?php endforeach; ?>
             </tr>
-            <tr>
-                <td>1</td>
-                <td>Mark</td>
-                <td>Otto</td>
-                <td>@mdo</td>
-                <td>
-                    <button type="button" class="btn btn-primary">Modifier</button>
-                    <button type="button" class="btn btn-secondary">Supprimer</button>
-                </td>
-            </tr>
+            
         </tbody>
     </table>
 </div>
